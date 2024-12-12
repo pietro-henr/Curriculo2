@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  padding: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(90deg, #4CAF50, #45a049);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+img {
+  border-radius: 70%;
+  height: 350px;
+  width: 350px;
+  padding: 15px;
+
+}
+
+.header h1 {
+  font-size: 35px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.header p {
+  font-size: 30px;
+  margin: 5px 0;
+  padding: 15px;
+}
+
+.contact-info p {
+  padding: 15px;
+  margin: 5px 0;
+
+}
+
+main {
+  justify-content: space-around;
+  text-align: center;
+}
+section {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  width: 700px;
+}
+
+section:last-child {
+  border-bottom: none;
+  padding: 15px;
+}
+
+h2 {
+  
+  font-size: 25px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto;
+  border-bottom: solid #4CAF50 5px;
+  width: fit-content;
+  padding: 15px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  font-size: 20px;
+}
+.pri{
+  display: flex;
+  justify-content: space-evenly;
+  padding: auto;
+  margin: auto;
+}
+.seg{
+  display: flex;
+  padding: auto;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.por{
+  width: 55px;
+  height: 10px;
+  background-color: #45a049;
+}
+.pos{
+  width: 30px;
+  height: 10px;
+  background-color: #45a049;
+}
+.language {
+  margin-bottom: 15px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  flex-grow: 1;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  min-width: 50px;
+  text-align: right;
+}
